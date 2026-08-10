@@ -3,8 +3,8 @@
 </div>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/yousefwalidabubaker/"><img src="https://img.shields.io/badge/LinkedIn-Connect-171411?style=for-the-badge&amp;logo=linkedin&amp;logoColor=FBBF24" alt="LinkedIn" /></a>
-  <a href="https://github.com/yousefwalidabubaker/CampusFlow"><img src="https://img.shields.io/badge/Featured_Project-CampusFlow-171411?style=for-the-badge&amp;logo=github&amp;logoColor=FB7185" alt="CampusFlow" /></a>
+  <a href="https://www.linkedin.com/in/yousefwalidabubaker/"><img src="https://img.shields.io/badge/LinkedIn-CONNECT-111111?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/yousefwalidabubaker/CampusFlow"><img src="https://img.shields.io/badge/Featured_Project-CAMPUSFLOW-111111?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="CampusFlow" /></a>
 </p>
 
 <table>
@@ -64,17 +64,17 @@ Alongside development, I have led award winning hackathon teams, coordinated tec
 ## Technical toolkit
 
 <p>
-  <img src="https://img.shields.io/badge/JavaScript-171411?style=flat-square&amp;logo=javascript&amp;logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-171411?style=flat-square&amp;logo=typescript&amp;logoColor=3178C6" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Java-171411?style=flat-square&amp;logo=openjdk&amp;logoColor=ED8B00" alt="Java" />
-  <img src="https://img.shields.io/badge/Python-171411?style=flat-square&amp;logo=python&amp;logoColor=FFD43B" alt="Python" />
-  <img src="https://img.shields.io/badge/HTML5-171411?style=flat-square&amp;logo=html5&amp;logoColor=E34F26" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-171411?style=flat-square&amp;logo=css3&amp;logoColor=1572B6" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Node.js-171411?style=flat-square&amp;logo=nodedotjs&amp;logoColor=5FA04E" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express-171411?style=flat-square&amp;logo=express&amp;logoColor=white" alt="Express" />
-  <img src="https://img.shields.io/badge/SQLite-171411?style=flat-square&amp;logo=sqlite&amp;logoColor=44A2D6" alt="SQLite" />
-  <img src="https://img.shields.io/badge/SQL-171411?style=flat-square&amp;logo=postgresql&amp;logoColor=FBBF24" alt="SQL" />
-  <img src="https://img.shields.io/badge/Git-171411?style=flat-square&amp;logo=git&amp;logoColor=F05032" alt="Git" />
+  <img src="https://img.shields.io/badge/JavaScript-111111?style=flat-square&amp;logo=javascript&amp;logoColor=white" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-111111?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Java-111111?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Python-111111?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/HTML5-111111?style=flat-square&amp;logo=html5&amp;logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-111111?style=flat-square&amp;logo=css3&amp;logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Node.js-111111?style=flat-square&amp;logo=nodedotjs&amp;logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express-111111?style=flat-square&amp;logo=express&amp;logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/SQLite-111111?style=flat-square&amp;logo=sqlite&amp;logoColor=white" alt="SQLite" />
+  <img src="https://img.shields.io/badge/SQL-111111?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="SQL" />
+  <img src="https://img.shields.io/badge/Git-111111?style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git" />
 </p>
 
 ## Highlights
