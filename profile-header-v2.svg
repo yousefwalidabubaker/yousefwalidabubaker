@@ -1,54 +1,56 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
   <title id="title">Yousef AbuBaker</title>
-  <desc id="description">Computer Science student focused on software, artificial intelligence, and project leadership</desc>
+  <desc id="description">Computer Science student focused on software, artificial intelligence, and leadership</desc>
 
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#09090b"/>
-      <stop offset="58%" stop-color="#171411"/>
-      <stop offset="100%" stop-color="#241812"/>
+    <linearGradient id="black" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="58%" stop-color="#101010"/>
+      <stop offset="100%" stop-color="#1b1b1b"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#fbbf24"/>
-      <stop offset="55%" stop-color="#f97316"/>
-      <stop offset="100%" stop-color="#fb7185"/>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6f6f6f"/>
+      <stop offset="48%" stop-color="#f4f1e9"/>
+      <stop offset="100%" stop-color="#777777"/>
     </linearGradient>
-    <linearGradient id="softAccent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.72"/>
-      <stop offset="100%" stop-color="#fb7185" stop-opacity="0.18"/>
-    </linearGradient>
-    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="7" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+    <pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="2" r="0.45" fill="#ffffff" opacity="0.08"/>
+      <circle cx="6" cy="6" r="0.35" fill="#ffffff" opacity="0.05"/>
+    </pattern>
   </defs>
 
-  <rect width="1200" height="300" rx="26" fill="url(#background)"/>
-  <path d="M815 0H1200V300H930C1015 225 1002 98 815 0Z" fill="#ffffff" opacity="0.025"/>
-  <path d="M905 0H1200V300H1015C1085 220 1072 92 905 0Z" fill="#f97316" opacity="0.055"/>
+  <rect width="1200" height="300" rx="24" fill="url(#black)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#grain)"/>
+  <rect x="1" y="1" width="1198" height="298" rx="23" fill="none" stroke="#ffffff" stroke-opacity="0.16"/>
 
-  <rect x="68" y="54" width="7" height="192" rx="3.5" fill="url(#accent)"/>
-  <rect x="108" y="53" width="152" height="30" rx="15" fill="#f6f1e8" opacity="0.09"/>
-  <circle cx="126" cy="68" r="4" fill="#fbbf24"/>
-  <text x="140" y="73" fill="#d6d3d1" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="1.6">NABLUS / PALESTINE</text>
-
-  <text x="108" y="139" fill="#faf7f2" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" letter-spacing="0.2">Yousef AbuBaker</text>
-  <text x="110" y="184" fill="#fbbf24" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="2">COMPUTER SCIENCE  ·  SOFTWARE  ·  AI</text>
-  <text x="110" y="227" fill="#d6d3d1" font-family="Arial, Helvetica, sans-serif" font-size="20">Building useful systems. Leading teams. Learning fast.</text>
-
-  <g transform="translate(1000 145)">
-    <circle r="88" fill="none" stroke="url(#softAccent)" stroke-width="1.5"/>
-    <circle r="63" fill="none" stroke="#f6f1e8" stroke-opacity="0.13" stroke-width="1"/>
-    <path d="M-102 -34C-45 -95 47 -97 102 -35" fill="none" stroke="#f97316" stroke-opacity="0.42" stroke-width="2"/>
-    <path d="M-101 42C-39 101 46 97 103 35" fill="none" stroke="#fb7185" stroke-opacity="0.32" stroke-width="2"/>
-    <circle cx="-101" cy="-34" r="5" fill="#fbbf24" filter="url(#softGlow)"/>
-    <circle cx="102" cy="-35" r="5" fill="#f97316" filter="url(#softGlow)"/>
-    <circle cx="-101" cy="42" r="5" fill="#fb7185" filter="url(#softGlow)"/>
-    <circle cx="103" cy="35" r="5" fill="#f6f1e8" filter="url(#softGlow)"/>
-    <text x="0" y="30" text-anchor="middle" fill="#faf7f2" font-family="Arial, Helvetica, sans-serif" font-size="91" font-weight="700">Y</text>
+  <g opacity="0.28" fill="none" stroke="#f4f1e9">
+    <path d="M856 29H1165V271H856" stroke-width="1"/>
+    <path d="M887 58H1134V242H887" stroke-width="0.7"/>
+    <circle cx="1010" cy="150" r="90" stroke-width="0.8"/>
+    <circle cx="1010" cy="150" r="54" stroke-width="0.6"/>
+    <path d="M831 150H1189M1010 8V292" stroke-width="0.55"/>
+    <path d="M902 73L1118 227M1118 73L902 227" stroke-width="0.45" stroke-dasharray="3 8"/>
   </g>
-  <text x="1000" y="266" text-anchor="middle" fill="#d6d3d1" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="2.4">BUILD  ·  LEAD  ·  SHIP</text>
+
+  <g fill="#f4f1e9">
+    <circle cx="856" cy="29" r="2"/>
+    <circle cx="1165" cy="29" r="2"/>
+    <circle cx="856" cy="271" r="2"/>
+    <circle cx="1165" cy="271" r="2"/>
+  </g>
+
+  <rect x="71" y="51" width="128" height="1" fill="url(#silver)"/>
+  <text x="71" y="83" fill="#b8b8b8" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" letter-spacing="3.4">NABLUS  /  PALESTINE</text>
+
+  <text x="69" y="153" fill="#f7f5ef" font-family="Georgia, 'Times New Roman', serif" font-size="66" font-weight="400" letter-spacing="0.4">Yousef AbuBaker</text>
+  <text x="72" y="198" fill="#d2d2d2" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="500" letter-spacing="3.2">COMPUTER SCIENCE  ·  SOFTWARE  ·  ARTIFICIAL INTELLIGENCE</text>
+
+  <rect x="71" y="229" width="38" height="1" fill="#f4f1e9"/>
+  <text x="124" y="235" fill="#9d9d9d" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1.2">BUILD USEFUL SYSTEMS  ·  LEAD WITH PURPOSE</text>
+
+  <g transform="translate(1010 150)">
+    <rect x="-80" y="-28" width="160" height="56" fill="#0b0b0b" stroke="#f4f1e9" stroke-opacity="0.45"/>
+    <text x="0" y="-3" text-anchor="middle" fill="#f4f1e9" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing="1.5">BUILD · LEAD</text>
+    <text x="0" y="18" text-anchor="middle" fill="#8d8d8d" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="600" letter-spacing="4.4">SHIP</text>
+  </g>
 </svg>
