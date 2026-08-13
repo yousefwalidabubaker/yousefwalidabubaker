@@ -160,7 +160,7 @@ All formulas, sources, owners, refresh times, and exclusions are documented in [
 | --- | --- | --- | --- | --- | --- |
 | Must | [US01 — Create and verify a partner store](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/1) | E1 | Establish a trusted partner identity | M | None |
 | Must | [US02 — Add eligible inventory](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/2) | E1 | Create accurate, actionable stock records | M | US01 |
-| Must | [US03 — Enforce food safety and eligibility rules](https://github.com/yousefwalidabubaker/yousefwalidabuber/issues/3) | E1 | Block unsafe or invalid sale and donation paths | L | US02 |
+| Must | [US03 — Enforce food safety and eligibility rules](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/3) | E1 | Block unsafe or invalid sale and donation paths | L | US02 |
 | Must | [US04 — Browse discounted products](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/4) | E2 | Make eligible inventory discoverable | M | US02, US03 |
 | Should | [US05 — Find products with Smart Search](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/5) | E2 | Reduce effort and zero-result searches | M | US04 |
 | Must | [US06 — Review clear product and safety information](https://github.com/yousefwalidabubaker/yousefwalidabaker/issues/6) | E2 | Help customers make informed choices | S | US03, US04 |
