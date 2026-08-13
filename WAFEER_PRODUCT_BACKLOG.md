@@ -8,7 +8,7 @@
 | **Original project role** | Project Manager and major contributor |
 | **Artifact status** | Product Owner portfolio sample; meaningfully updated August 2026 |
 | **Backlog scale** | 5 epics · 12 ready stories · 7 Must · 4 Should · 1 Could |
-| **Recognition** | Recipient of the **Potential to Scale Award** at the international TechBridge Hackathon in Amman, Jordan; developed under training and mentorship from Microsoft engineers |
+| **Recognition** | **Wafeer received the Potential to Scale Award** at the Global TechBridge Hackathon in Amman (2026). The event was technically supported by Microsoft, and the project team received training and mentorship from Microsoft engineers |
 
 > **Food-safety commitment:** Wafeer may redirect food to charity only while it is still unexpired, safe, edible, properly stored, and before its configured safety cutoff. Expired, unsafe, damaged, or recalled food is never offered for sale or donation.
 
