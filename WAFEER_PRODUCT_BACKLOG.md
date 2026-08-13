@@ -1,449 +1,265 @@
-# Wafeer Product Backlog
+# Wafeer — Product Backlog & Delivery Strategy
 
-**An AI assisted marketplace designed to reduce food waste, recover value for stores, and help customers access safe food at lower prices**
+**A two-application product ecosystem designed to reduce food waste, recover value for stores, help customers access affordable food, and redirect eligible surplus safely before expiry.**
 
-> **Recognition:** Award winner at the international TechBridge Hackathon in Amman, Jordan, developed under training and mentorship from Microsoft engineers.
+| Portfolio information | Detail |
+| --- | --- |
+| **Backlog owner / Product Owner** | Yousef AbuBaker |
+| **Original project role** | Project Manager and major contributor |
+| **Artifact status** | Product Owner portfolio sample; meaningfully updated August 2026 |
+| **Backlog scale** | 5 epics · 12 ready stories · 7 Must · 4 Should · 1 Could |
+| **Recognition** | Recipient of the **Potential to Scale Award** at the international TechBridge Hackathon in Amman, Jordan; developed under training and mentorship from Microsoft engineers |
 
-**Product role:** Yousef AbuBaker, Project Manager
+> **Food-safety commitment:** Wafeer may redirect food to charity only while it is still unexpired, safe, edible, properly stored, and before its configured safety cutoff. Expired, unsafe, damaged, or recalled food is never offered for sale or donation.
+
+[Open the complete GitHub Issue backlog](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues?q=is%3Aissue+state%3Aopen+Wafeer)
+
+## Reviewer quick map
+
+This page is the backlog index and product strategy. Every linked story is a trackable GitHub Issue.
+
+| Product Owner evidence | Where to review it |
+| --- | --- |
+| Product vision, problem, users, and outcomes | Product strategy below |
+| Epics and prioritization | Epic map and prioritized backlog |
+| User stories | 12 linked GitHub Issues |
+| Actionable tasks | Checkbox task list inside every Issue |
+| Acceptance criteria | Testable criteria inside every Issue |
+| Dependencies | Backlog dependency column and each Issue |
+| Edge cases and test criteria | Every Issue plus the cross-cutting quality matrix |
+| Sprint and release goals | Proposed delivery sequence |
+| Metrics and product learning | Measurement framework and discovery plan |
+| Ownership and recency | Portfolio integrity note |
 
 ## Product overview
 
-Wafeer is a connected two application ecosystem built around one goal: helping safe food reach people before it becomes waste.
+Wafeer is built around two connected applications and one shared eligibility workflow.
 
-| Product | Primary user | Purpose |
+| Product | Primary user | Job to be done |
 | --- | --- | --- |
-| **Wafeer** | Customers | Discover and purchase safe products approaching their expiry date at significantly reduced prices |
-| **Wafeer Partners** | Stores and retailers | Create a store, manage eligible inventory, apply timely discounts, analyze expiry risk, and coordinate responsible donations |
+| **Wafeer** | Customers | Discover, understand, reserve, and collect eligible products approaching expiry at meaningful discounts |
+| **Wafeer Partners** | Stores and retailers | Create a store, manage eligible inventory, reduce expiry risk, recover value, and coordinate safe charity handoffs |
 
-When an eligible food item approaches the end of its sellable window but remains safe, edible, and within its valid expiry date, Wafeer Partners can redirect it to a verified charity. Expired or unsafe food is never offered for sale or donation.
+The customer journey and partner workflow share one source of truth for inventory, eligibility, reservation, and handoff status. This prevents an item from being sold twice, donated twice, or offered after it becomes ineligible.
 
-## My role
+## Product strategy
 
-As Project Manager, I helped turn the initial problem into a focused product concept. My responsibilities included:
-
-* Defining target users, the core problem, and the value proposition
-* Prioritizing features around customer value, store usability, food safety, and social impact
-* Coordinating the business, design, and technical workstreams
-* Aligning both applications into one connected product journey
-* Leading the final pitch and product demonstration
-* Presenting Wafeer's growth potential to mentors and judges
-
-## Product vision
+### Vision
 
 Make affordable food easier to access while giving stores a practical system to sell or responsibly redirect safe inventory before it expires.
 
-## The problem
+### Problem
 
-Stores lose revenue when products approach their expiry dates, while customers face rising food costs and charities need reliable access to safe donations. Existing inventory workflows often identify the problem too late.
+Stores lose revenue when action on time-sensitive inventory happens too late. Customers face rising food costs but may not trust near-expiry offers without clear information. Charities need reliable notice, safe eligibility rules, and realistic collection windows. Disconnected processes create waste, overselling, and unclear accountability.
 
-Wafeer connects customer demand, store inventory decisions, intelligent discovery, and responsible redistribution in one product system.
+### Target users
 
-## Target users
+| User | Primary need | Product value |
+| --- | --- | --- |
+| Value-conscious customer | Find trustworthy discounted food quickly | Clear discovery, savings, availability, and pickup details |
+| Store manager | Recover value before inventory becomes unsellable | Risk visibility, timely actions, and measurable outcomes |
+| Inventory employee | Update time-sensitive products with low effort | Validated entry, clear status, and fewer manual steps |
+| Charity coordinator | Receive safe, actionable offers before cutoff | Verified offers, collection deadlines, and handoff records |
+| Platform administrator | Protect safety, trust, and data quality | Deterministic controls, auditability, and impact reporting |
 
-| User | Need |
-| --- | --- |
-| Value conscious customer | Find safe products at meaningful discounts without a complicated search |
-| Store manager | Recover value from inventory before it becomes unsellable |
-| Inventory employee | Add products and make time sensitive updates quickly |
-| Charity coordinator | Receive clear information about safe, eligible donations before expiry |
-| Platform administrator | Protect trust, monitor activity, and measure impact |
+### Product outcomes
+
+1. **Prevent avoidable waste safely** by acting before eligibility ends.
+2. **Improve affordable access** through transparent discounted offers.
+3. **Recover store value** without creating operational complexity.
+4. **Create accountable charity handoffs** for eligible, unexpired surplus.
+5. **Learn from measurable behavior** instead of treating proposed metrics as completed results.
+
+### Product guardrails and non-goals
+
+- Safety rules always outrank revenue, recommendation, and growth goals.
+- Smart features may recommend actions but cannot override eligibility controls.
+- Wafeer does not sell or donate expired or unsafe food.
+- Estimates are labeled; they are never presented as confirmed impact.
+- The product does not make medical, nutritional, or food-safety guarantees.
+- Sensitive customer, store, and charity information is visible only to authorized roles.
 
 ## Product principles
 
-1. **Safety before savings:** Every sale and donation must meet food safety and validity rules.
-2. **Clarity builds trust:** Customers see the price, discount, expiry information, and collection details before committing.
-3. **Act before waste:** Stores receive useful warnings and recommendations early enough to take action.
-4. **Simple store operations:** Wafeer Partners reduces work instead of adding another complicated process.
-5. **Measurable impact:** Revenue recovered, customer savings, successful donations, and food diverted from waste remain visible.
+1. **Safety before savings**
+2. **Clarity creates trust**
+3. **Act before waste**
+4. **Simple store operations**
+5. **Human control over consequential recommendations**
+6. **Measured impact with honest definitions**
 
-## Core features
+## Core capabilities
 
 ### Wafeer customer application
 
-* **Smart Search:** Finds relevant products using customer intent, category, price, location, and remaining shelf life
-* **Smart Basket:** Suggests useful combinations of available discounted products based on needs and budget
-* Clear original price, discounted price, expiry information, availability, and pickup details
-* Product reservation or purchase with inventory protection
-* Notifications for confirmed orders and collection windows
+- Browse eligible discounted inventory from verified stores
+- **Smart Search** using intent, category, price, location, and availability
+- Clear product, discount, expiry, storage, and pickup information
+- Inventory-protected reservation and order confirmation
+- **Smart Basket** suggestions based on budget, preferences, and eligible stock
+- Timely order and collection notifications
 
 ### Wafeer Partners application
 
-* Store creation and onboarding
-* Product and inventory management
-* Rules for discounts and eligibility
-* **Smart Analysis:** Highlights expiry risk, recommends timely actions, and tracks sales, savings, and waste reduction
-* Safe donation workflow for products that remain edible and valid but are approaching the end of their eligible window
-* Handoff records for verified charity partners
+- Store onboarding and verification
+- Validated inventory and eligibility management
+- Deterministic sale, donation, and safety cutoffs
+- **Smart Analysis** for expiry risk and recommended next actions
+- Order preparation and collection status
+- Verified charity offer, acceptance, and handoff workflow
+- Revenue, savings, recovery, and impact reporting
 
-## Proposed success metrics
+## Discovery and validation plan
 
-These metrics define how the product should be evaluated. They are measurement goals, not completed results.
+These are proposed validation activities, not claims of completed research.
 
-| Goal | Metric |
-| --- | --- |
-| Reduce food waste | Units and estimated weight redirected from waste |
-| Recover store value | Revenue recovered from near expiry inventory |
-| Help customers save | Total and average savings per completed basket |
-| Improve discovery | Search to product view and search to purchase conversion |
-| Encourage repeat use | Returning customers and repeat store activity |
-| Support responsible donation | Safe donation handoffs completed before expiry |
-| Protect trust | Safety reports, cancellations, and invalid listings |
+| Risky assumption | Validation method | Decision rule |
+| --- | --- | --- |
+| Customers trust near-expiry offers when dates, storage, savings, and pickup are clear | Moderated prototype test and comprehension questions | If users cannot explain eligibility and pickup correctly, revise content before checkout work |
+| Store employees can add and update inventory without slowing operations | Observe realistic product-entry and quantity-update tasks | If repeated errors or workarounds appear, simplify fields and automation before scaling |
+| Charity partners can decide and collect within the safe window | Service-blueprint walkthrough and timed pilot scenario | If the handoff cannot finish before cutoff, change lead time, routing, or eligibility policy |
+| Smart Search and Smart Basket produce helpful choices | Scenario-based relevance and constraint testing | If suggestions violate needs or lack useful alternatives, fall back to transparent rules |
+| Smart Analysis improves action without weakening safety | Compare recommendations with curated inventory cases and manager judgment | If explanations or confidence are insufficient, keep human approval and deterministic fallbacks |
+
+## Measurement framework
+
+### North-star metric
+
+**Eligible units successfully collected by customers or handed off to a verified charity before the configured safety cutoff.**
+
+This combines the core customer, store, and impact outcomes while preserving a strict safety boundary.
+
+| Outcome | Metric definition | Product decision supported |
+| --- | --- | --- |
+| Waste reduction | Confirmed eligible units and estimated weight completed before cutoff; excludes cancellations and uncollected offers | Which categories, stores, and interventions need earlier action |
+| Customer affordability | Sum of original price minus paid price for completed quantities | Whether discovery and basket features create meaningful value |
+| Store recovery | Revenue from completed near-expiry orders | Which discount and timing strategies recover value |
+| Discovery quality | Search-to-product-view, zero-result rate, and search-to-order conversion | How to improve ranking, filters, and inventory coverage |
+| Order reliability | Confirmed orders divided by initiated checkouts; cancellation and stock-conflict rate | Where reservation or fulfilment fails |
+| Donation reliability | Collected quantity divided by accepted quantity before cutoff | Whether offer timing and handoff operations work |
+| Safety and trust | Invalid listings blocked, eligibility overrides attempted, safety incidents, and support reports | Whether release must pause or controls must change |
+| Product retention | Returning customer rate and active returning partner stores | Whether value is repeated rather than one-time |
+
+All formulas, sources, owners, refresh times, and exclusions are documented in [US12](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/12). Proposed metrics are not presented as achieved results.
+
+# Epic map
+
+| Epic | Outcome | Stories |
+| --- | --- | --- |
+| **E1 — Store and safety foundation** | Verified partners can create valid, safely governed inventory | US01–US03 |
+| **E2 — Customer discovery and trust** | Customers can find and understand eligible offers | US04–US06 |
+| **E3 — Ordering and fulfilment** | Inventory is reserved once and collected through a clear workflow | US07, US11 |
+| **E4 — Intelligent experiences** | Customers and stores receive explainable, constraint-aware recommendations | US08–US09 |
+| **E5 — Safe donation and impact** | Eligible surplus reaches verified charities and outcomes are measured honestly | US10, US12 |
 
 # Prioritized backlog
 
-| Priority | ID | Epic | User story | Status | Depends on |
+**Prioritization method:** MoSCoW, ordered first by safety and dependency, then by customer value and learning. Relative sizes are initial Product Owner hypotheses and must be re-estimated by the delivery team.
+
+| Priority | Story | Epic | Product outcome | Size | Depends on |
 | --- | --- | --- | --- | --- | --- |
-| Must | US01 | Store foundation | Create and verify a store in Wafeer Partners | Ready | None |
-| Must | US02 | Inventory | Add eligible products with price, quantity, and expiry data | Ready | US01 |
-| Must | US03 | Safety rules | Block expired, unsafe, or ineligible products | Ready | US02 |
-| Must | US04 | Customer discovery | Browse available discounted products | Ready | US02, US03 |
-| Must | US05 | Smart Search | Find relevant products quickly using intent and filters | Ready | US04 |
-| Must | US06 | Product trust | Review price, discount, expiry, and collection information | Ready | US04 |
-| Must | US07 | Order flow | Reserve or purchase an available product | Ready | US03, US06 |
-| Should | US08 | Smart Basket | Receive a useful basket recommendation from available items | Ready | US05, US07 |
-| Should | US09 | Smart Analysis | Identify expiry risk and recommended store actions | Ready | US02, US07 |
-| Must | US10 | Safe donation | Redirect eligible food to charity before expiry | Ready | US03, US09 |
-| Should | US11 | Notifications | Receive order, pickup, inventory, and donation updates | Ready | US07, US10 |
-| Could | US12 | Impact reporting | Measure store, customer, and community outcomes | Ready | US07, US10 |
-
-## Epic 1: Store and inventory foundation
-
-### US01: Create and verify a store
-
-**User story**
-
-As a store manager, I want to create a Wafeer Partners store profile so that I can manage eligible inventory and make it visible to customers.
-
-**Acceptance criteria**
-
-* The manager can enter the store name, address, contact information, operating hours, and pickup location.
-* Required information is validated before submission.
-* The store remains inactive until required verification is complete.
-* Customers cannot see unverified stores.
-* The manager can update store information after verification.
-
-**Tasks**
-
-* Design the store onboarding flow.
-* Define required and optional store fields.
-* Add validation and clear error messages.
-* Create verification and activation states.
-* Test incomplete, duplicate, and invalid submissions.
-
-### US02: Add eligible inventory
-
-**User story**
-
-As an inventory employee, I want to add products with price, quantity, expiry date, and storage information so that the store can act before products become waste.
-
-**Acceptance criteria**
-
-* A product includes its name, category, original price, discounted price, quantity, expiry date, and storage requirements.
-* The discounted price must be lower than the original price.
-* Quantity cannot be negative.
-* Invalid or past expiry dates are rejected.
-* Inventory changes appear in Wafeer without exposing ineligible products.
-
-**Tasks**
-
-* Create the product entry form.
-* Define product validation rules.
-* Add inventory quantity controls.
-* Connect eligible inventory to the customer catalogue.
-* Test incorrect dates, prices, and quantities.
-
-### US03: Enforce safety and eligibility rules
-
-**User story**
-
-As a platform administrator, I want listings to follow safety and eligibility rules so that expired or unsafe food is never sold or donated.
-
-**Acceptance criteria**
-
-* A product cannot be published if its expiry date has passed.
-* A store confirms that a product remains safe, properly stored, and compliant before activation.
-* Products automatically leave customer discovery when they exit the eligible sales window.
-* Donation eligibility ends before or at the configured safety cutoff.
-* Expired, damaged, recalled, or unsafe items are blocked from both sale and donation.
-* Every eligibility status change is recorded.
-
-**Tasks**
-
-* Define sale and donation eligibility states.
-* Create automatic status transitions.
-* Add store safety confirmation.
-* Add blocked item reasons and an audit record.
-* Test boundary dates and invalid status changes.
-
-## Epic 2: Customer discovery and trust
-
-### US04: Browse discounted products
-
-**User story**
-
-As a customer, I want to browse available products from nearby verified stores so that I can find useful food at a lower price.
-
-**Acceptance criteria**
-
-* Only active, in stock, eligible products are displayed.
-* Customers can filter by category, store, price, discount, and pickup location.
-* Out of stock or ineligible products disappear from results.
-* Product cards show essential information without requiring extra clicks.
-* An empty state suggests changing filters or location.
-
-**Tasks**
-
-* Design the catalogue and filter experience.
-* Define product card content.
-* Connect catalogue availability to partner inventory.
-* Add loading, empty, and error states.
-* Test catalogue changes when inventory is updated.
-
-### US05: Use Smart Search
-
-**User story**
-
-As a customer, I want Smart Search to understand what I need and return relevant available products so that I spend less time looking through listings.
-
-**Acceptance criteria**
-
-* Search supports product names, categories, common needs, and natural language phrases.
-* Results prioritize relevance and current availability.
-* Filters refine results by price, store, distance, discount, and remaining shelf life.
-* Ineligible or out of stock products never appear.
-* If no exact match exists, the system suggests safe and relevant alternatives.
-* Customers can clear or change their search easily.
-
-**Tasks**
-
-* Define supported search intents and filters.
-* Create ranking logic.
-* Add spelling tolerance and alternative suggestions.
-* Protect results with inventory and eligibility checks.
-* Test common, ambiguous, and empty queries.
-
-### US06: Review product information
-
-**User story**
-
-As a customer, I want clear product, price, expiry, and pickup information so that I can make a confident decision.
-
-**Acceptance criteria**
-
-* The customer sees the original price, discounted price, percentage saved, expiry information, quantity, store, and pickup window.
-* The page explains that the item is offered before expiry and must meet eligibility rules.
-* Storage and collection instructions are visible when relevant.
-* Unavailable products cannot be added to the basket.
-* Any material product update appears before checkout.
-
-**Tasks**
-
-* Design the product detail page.
-* Calculate and display savings.
-* Add expiry and pickup information.
-* Add availability validation.
-* Test changes between product view and checkout.
-
-## Epic 3: Basket and order flow
-
-### US07: Reserve or purchase an item
-
-**User story**
-
-As a customer, I want to reserve or purchase available products so that the store holds them for my collection window.
-
-**Acceptance criteria**
-
-* Availability is checked again before confirmation.
-* Confirmed quantities are deducted or temporarily reserved.
-* The customer receives a clear order summary and collection window.
-* Failed payments or expired reservations release the inventory.
-* The same final unit cannot be confirmed twice.
-* The store can view and prepare confirmed orders.
-
-**Tasks**
-
-* Design basket, checkout, and confirmation states.
-* Add a final inventory check.
-* Define reservation timeout rules.
-* Update store inventory after confirmation or cancellation.
-* Test competing orders for limited inventory.
-
-### US08: Build a Smart Basket
-
-**User story**
-
-As a customer, I want Smart Basket suggestions based on my needs, budget, and available products so that I can save more and discover useful combinations.
-
-**Acceptance criteria**
-
-* Customers can enter a budget, preferences, household need, or excluded items.
-* Suggestions contain only available and eligible products.
-* The basket displays total original price, discounted total, and savings.
-* Customers can remove, replace, or add individual items.
-* Replacements respect the customer's budget and exclusions.
-* The basket is revalidated before confirmation.
-
-**Tasks**
-
-* Define basket inputs and recommendation rules.
-* Create basket generation and replacement flows.
-* Calculate total savings.
-* Add availability and safety validation.
-* Test low inventory, exclusions, and price changes.
-
-## Epic 4: Partner intelligence and responsible redistribution
-
-### US09: Use Smart Analysis
-
-**User story**
-
-As a store manager, I want Smart Analysis to identify inventory at risk and recommend timely actions so that I can recover value before products become waste.
-
-**Acceptance criteria**
-
-* The dashboard groups products by urgency and remaining eligible time.
-* The manager sees current quantity, sales activity, discount, and projected risk.
-* The system recommends actions such as adjusting the discount, featuring a product, or preparing an eligible donation.
-* Recommendations never override safety rules or publish changes without store confirmation.
-* The manager can filter analysis by category, date range, and action status.
-* Completed actions are reflected in the dashboard.
-
-**Tasks**
-
-* Define expiry risk levels.
-* Design the analysis dashboard.
-* Create recommendation rules.
-* Add manager approval for suggested actions.
-* Test products near each safety threshold.
-
-### US10: Redirect safe food to charity before expiry
-
-**User story**
-
-As a store manager, I want to offer eligible food to a verified charity before it expires so that safe food can support people instead of becoming waste.
-
-**Acceptance criteria**
-
-* Only food that is within its valid expiry date, properly stored, safe, and edible can enter the donation workflow.
-* Expired, unsafe, damaged, or recalled products are never eligible.
-* The store confirms quantity, condition, expiry information, and collection deadline.
-* Only verified charity partners can accept a donation.
-* Acceptance creates a handoff record with the responsible parties and time.
-* Unaccepted items remain subject to the safety cutoff and are automatically blocked when no longer eligible.
-* Customer listings and donation availability cannot allocate the same unit twice.
-
-**Tasks**
-
-* Define donation eligibility and verification rules.
-* Design the charity offer and acceptance flow.
-* Add quantity locking to prevent double allocation.
-* Create the handoff record.
-* Add automatic cutoff and blocked status.
-* Test rejected, expired, and partially accepted donations.
-
-### US11: Send useful notifications
-
-**User story**
-
-As a customer, store employee, or charity coordinator, I want timely updates about actions that require attention so that orders and safe handoffs happen on time.
-
-**Acceptance criteria**
-
-* Customers receive confirmation, collection reminders, changes, and cancellation updates.
-* Stores receive low inventory, approaching cutoff, new order, and donation acceptance updates.
-* Charity coordinators receive eligible offer, acceptance, and pickup reminders.
-* Notifications contain only the information needed by the recipient.
-* Users can manage optional notification preferences.
-* Safety and cutoff warnings cannot be disabled for responsible store users.
-
-**Tasks**
-
-* Define notification events and recipients.
-* Write clear message templates.
-* Add preference controls.
-* Prevent duplicate notifications.
-* Test timing and role based visibility.
-
-## Epic 5: Impact and learning
-
-### US12: Measure product impact
-
-**User story**
-
-As a store manager or platform administrator, I want clear product and impact metrics so that I can understand business value and improve future decisions.
-
-**Acceptance criteria**
-
-* Stores can view revenue recovered, products sold before expiry, successful donations, and estimated waste avoided.
-* Customer reporting includes savings and repeat purchase behavior without exposing private information.
-* Donation reporting distinguishes offered, accepted, collected, expired, and rejected quantities.
-* Metrics use documented definitions and time ranges.
-* Administrators can identify missing or inconsistent data.
-* Reports do not present estimates as exact measurements.
-
-**Tasks**
-
-* Define every metric and data source.
-* Design store and administrator reports.
-* Add date and store filters.
-* Separate estimates from verified counts.
-* Test incomplete and inconsistent records.
-
-# Release plan
-
-| Phase | Product outcome | Included backlog |
+| Must | [US01 — Create and verify a partner store](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/1) | E1 | Establish a trusted partner identity | M | None |
+| Must | [US02 — Add eligible inventory](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/2) | E1 | Create accurate, actionable stock records | M | US01 |
+| Must | [US03 — Enforce food safety and eligibility rules](https://github.com/yousefwalidabubaker/yousefwalidabuber/issues/3) | E1 | Block unsafe or invalid sale and donation paths | L | US02 |
+| Must | [US04 — Browse discounted products](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/4) | E2 | Make eligible inventory discoverable | M | US02, US03 |
+| Should | [US05 — Find products with Smart Search](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/5) | E2 | Reduce effort and zero-result searches | M | US04 |
+| Must | [US06 — Review clear product and safety information](https://github.com/yousefwalidabubaker/yousefwalidabaker/issues/6) | E2 | Help customers make informed choices | S | US03, US04 |
+| Must | [US07 — Reserve and place a pickup order](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/7) | E3 | Complete an order without overselling | L | US03, US06 |
+| Should | [US08 — Build a value-optimized Smart Basket](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/8) | E4 | Create a useful basket within customer constraints | L | US05, US07 |
+| Should | [US09 — Prioritize inventory with Smart Analysis](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/9) | E4 | Help stores take earlier, explainable action | L | US02, US03, US07 |
+| Must | [US10 — Route eligible surplus to verified charities](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/10) | E5 | Complete accountable handoffs before cutoff | L | US02, US03 |
+| Should | [US11 — Send timely order and safety notifications](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/11) | E3 | Reduce missed actions and collections | M | US07, US10 |
+| Could | [US12 — Measure savings, recovery, and impact](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/12) | E5 | Turn outcomes into transparent decisions | M | US07, US10 |
+
+> Each linked Issue contains the complete user story, acceptance criteria, task checklist, dependencies, edge cases, and test criteria.
+
+## Priority rationale
+
+- **Safety and eligibility come first:** no discovery, order, recommendation, or donation can be trusted without US01–US03.
+- **The smallest customer value path comes next:** browsing, clear information, and inventory-protected ordering validate real demand before complex intelligence.
+- **Donation is core, not dependent on AI:** US10 uses deterministic eligibility rules; US09 may recommend donation but is not a blocking dependency.
+- **Smart features follow reliable data:** Smart Search, Smart Basket, and Smart Analysis become more useful after inventory and behavioral events exist.
+- **Reporting follows stable event definitions:** US12 measures confirmed outcomes only after order and handoff states are trustworthy.
+
+# Proposed delivery sequence
+
+This is a planning hypothesis, not a fixed promise. Scope should be replanned using team capacity, technical discovery, and sprint evidence.
+
+| Sequence | Sprint goal | Stories | Exit evidence |
+| --- | --- | --- | --- |
+| Sprint 0 | Validate users, workflows, safety rules, and event definitions | Discovery activities | Agreed journey, eligibility states, major risks, and measurable hypotheses |
+| Sprint 1 | Allow verified stores to create safely governed inventory | US01, US02, US03 | Invalid inventory is blocked and every state change is auditable |
+| Sprint 2 | Help customers discover and understand eligible offers | US04, US06 | A customer can find an eligible item and explain price, expiry, and pickup |
+| Sprint 3 | Complete reliable orders and safe charity handoffs | US07, US10 | No double allocation; completed orders and collections have matching records |
+| Sprint 4 | Improve discovery and timely action | US05, US11 | Search failures are measurable and critical reminders reach the correct role |
+| Sprint 5 | Add explainable intelligence | US08, US09 | Suggestions respect constraints, expose limitations, and keep human control |
+| Sprint 6 | Measure outcomes and guide iteration | US12 | Dashboard totals reconcile to source events and estimates are clearly labeled |
+
+## Release cuts
+
+| Release | Included value | Stories |
 | --- | --- | --- |
-| Discovery | Validate customer, store, and charity workflows | Interviews, journey maps, safety review |
-| MVP 1 | Stores can publish eligible inventory safely | US01, US02, US03 |
-| MVP 2 | Customers can discover and understand products | US04, US05, US06 |
-| MVP 3 | Customers can complete a reliable order | US07, US11 |
-| Growth | Improve value through intelligent experiences | US08, US09 |
-| Impact | Enable responsible donation and measurement | US10, US12 |
+| **MVP — Safe marketplace** | Verified supply, trusted discovery, and protected ordering | US01–US04, US06, US07 |
+| **MVP impact extension** | Deterministic, accountable charity handoff | US10 |
+| **Reliability and discovery** | Better search and action timing | US05, US11 |
+| **Intelligence** | Constraint-aware customer and store recommendations | US08, US09 |
+| **Learning** | Transparent product and impact reporting | US12 |
 
-# Suggested sprint sequence
+# Quality and acceptance strategy
 
-| Sprint | Goal | Stories |
+Issue-level tests appear in every story. The matrix below covers risks that cross multiple stories.
+
+| Scenario | Product rule | Test oracle |
 | --- | --- | --- |
-| Sprint 0 | Validate workflows, safety rules, and product assumptions | Discovery and policy definition |
-| Sprint 1 | Activate verified stores and safe inventory | US01, US02, US03 |
-| Sprint 2 | Launch customer discovery and Smart Search | US04, US05, US06 |
-| Sprint 3 | Complete reservations, purchases, and notifications | US07, US11 |
-| Sprint 4 | Add Smart Basket and Smart Analysis | US08, US09 |
-| Sprint 5 | Add safe charity handoffs and impact reporting | US10, US12 |
+| Item crosses the expiry or safety boundary | Remove it from sale and donation automatically | It cannot be discovered, reserved, accepted, or reactivated without authorized review |
+| Two users request the final unit | Reserve inventory atomically | Only one confirmation succeeds and total allocation never exceeds stock |
+| Price or stock changes while a page is open | Revalidate before basket and checkout actions | The customer sees the current value and cannot confirm stale inventory |
+| Customer reservation overlaps a charity offer | Use one allocation ledger | Sale plus donation allocation never exceeds available quantity |
+| Charity misses collection | Enforce the cutoff automatically | Uncollected quantity becomes blocked and is excluded from confirmed impact |
+| Smart feature has sparse or conflicting data | Explain limitations and use a safe fallback | No false certainty, forbidden item, or automatic safety override appears |
+| The same event is received twice | Make notifications and analytics idempotent | One user-facing message and one counted outcome are created |
+| Data is delayed, cancelled, or estimated | Preserve event status and metric definitions | Reports reconcile to sources and estimates remain visibly separate |
 
-## Definition of ready
+## Definition of Ready
 
-A story is ready when:
+A story is Ready only when:
 
-* The user and problem are clear.
-* Acceptance criteria are testable.
-* Dependencies and safety implications are identified.
-* Design or content questions are resolved.
-* The team can estimate the work.
+- The user, problem, outcome, and priority are clear.
+- Acceptance criteria are testable.
+- Dependencies, data needs, and safety implications are identified.
+- Important edge cases and test criteria are documented.
+- Design or policy questions that block estimation are resolved.
+- The delivery team can estimate the work.
 
-## Definition of done
+## Definition of Done
 
-A story is done when:
+A story is Done only when:
 
-* Acceptance criteria pass.
-* Important edge cases are tested.
-* Safety and privacy rules are satisfied.
-* The experience works across supported screen sizes.
-* Product documentation is updated.
-* The Product Owner accepts the completed story.
+- All acceptance criteria pass and important edge cases are tested.
+- Safety, privacy, accessibility, and authorization requirements pass.
+- Analytics events and failure states are verified.
+- The experience works across supported screen sizes.
+- Documentation and operational guidance are updated.
+- No critical defect remains open.
+- The Product Owner reviews the evidence and accepts the story.
 
-## Key product risks
+# Key product risks
 
-| Risk | Product response |
-| --- | --- |
-| Customer confusion about near expiry food | Display clear dates, eligibility, storage, and collection information |
-| Unsafe or expired items entering the system | Enforce automatic blocks, store confirmation, audit records, and clear cutoffs |
-| Inventory sold twice | Revalidate and lock quantities during order or donation confirmation |
-| Stores receive too many alerts | Prioritize notifications by urgency and required action |
-| Smart features make poor recommendations | Keep eligibility rules deterministic and require store control over business actions |
-| Donations are misunderstood | State clearly that only safe, edible, valid food can be donated before expiry |
+| Risk | Early signal | Product response |
+| --- | --- | --- |
+| Customers misunderstand near-expiry food | Confusion in usability tests or repeated support questions | Make date, safety, storage, and pickup information explicit before checkout |
+| Unsafe or invalid inventory enters a workflow | Eligibility override attempts or inconsistent statuses | Deterministic blocks, audit records, authorized review, and release guardrails |
+| Inventory is sold or donated twice | Reservation conflicts or negative quantity | Atomic allocation, final validation, timeout release, and reconciliation alerts |
+| Store work becomes too complicated | Incomplete listings or off-platform workarounds | Reduce fields, integrate updates, and prioritize exceptions by urgency |
+| Charity offers arrive too late | Low acceptance or missed collection before cutoff | Earlier triggers, realistic collection windows, and fallback routing |
+| Smart recommendations reduce trust | High replacement/rejection or unexplained output | Explain inputs, expose uncertainty, preserve manual approval, and keep rules-based fallback |
+| Impact is overstated | Dashboard cannot reconcile to source records | Document formulas, separate estimates, and count only confirmed outcomes |
 
-## Portfolio note
+# Portfolio integrity and ownership
 
-This backlog is a Product Owner portfolio artifact based on Wafeer, an award winning team hackathon product. It documents the product thinking, prioritization, user stories, acceptance criteria, dependencies, metrics, and delivery plan behind the concept. It does not present the full team build as solo work.
+- Wafeer is an original team hackathon product developed in 2026.
+- Yousef AbuBaker's original role was **Project Manager and major contributor**; this backlog presents his Product Owner thinking and contribution.
+- This portfolio artifact was newly structured and meaningfully updated in **August 2026**.
+- It does not claim that the full team build was completed by one person.
+- Proposed stories, experiments, release plans, estimates, and metrics are clearly distinguished from completed product results.
+- Recognition and mentorship are stated specifically; no employment relationship with Microsoft is implied.
