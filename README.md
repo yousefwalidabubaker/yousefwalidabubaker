@@ -10,31 +10,32 @@
 <table>
   <tr>
     <td width="33%" align="center"><strong>2</strong><br />Hackathon awards</td>
-    <td width="33%" align="center"><strong>Product + Tech</strong><br />Cross functional focus</td>
+    <td width="33%" align="center"><strong>Product and Tech</strong><br />My main focus</td>
     <td width="33%" align="center"><strong>2027</strong><br />Expected graduation</td>
   </tr>
 </table>
 
-## About me
+## Hi, I am Yousef
 
-I am a fourth year Computer Science student at An Najah National University focused on product management, AI enabled products, and technology. I enjoy turning real problems into clear product decisions by understanding users, defining value, prioritizing the right features, and aligning people around delivery.
+I am a fourth year Computer Science student at An Najah National University. I am most interested in the point where product decisions, people, and technology meet.
 
-I have led award winning hackathon teams, coordinated business, design, and technical workstreams, and developed Wafeer under training and mentorship from Microsoft engineers. I combine technical understanding with communication, leadership, and product thinking to move ideas from problem definition to a useful product.
+I enjoy taking a rough idea, understanding the real problem behind it, and making it clear enough for a team to build. That usually means talking to users, deciding what matters first, keeping business and technical work connected, and making sure everyone is working toward the same goal.
 
-## Current focus
+At the Global TechBridge Hackathon in Amman, I worked as the Project Manager for Wafeer. Our project received the Potential to Scale Award. I helped define the users and value proposition, set feature priorities, coordinate the business, design, and technical work, and lead the final pitch and demo. The event was technically supported by Microsoft, and our team received training and mentorship from Microsoft engineers.
 
-| | |
-|---|---|
-| **Product** | User problems, product vision, prioritization, backlogs, user stories, and success metrics |
-| **Technology** | AI enabled experiences, software systems, APIs, databases, Azure, and product feasibility |
-| **Building** | Cross functional experience across product, design, engineering, and delivery |
-| **Looking for** | Product Management, Product Owner, APM, and technology internship opportunities |
+I am currently looking for Product Management, Product Owner, Associate Product Manager, and technology internship opportunities.
 
-## Featured product case
+## Featured product work
 
 ### [Wafeer Product Backlog](WAFEER_PRODUCT_BACKLOG.md)
 
-Wafeer is a two application ecosystem designed to reduce food waste and make safe food more affordable. The customer application helps people discover and buy safe near expiry products at significantly reduced prices. Wafeer Partners helps stores manage eligible inventory, analyze expiry risk, and redirect safe, edible food to verified charities before it expires.
+Wafeer has two connected applications. The customer app helps people find safe products that are approaching expiry at lower prices. Wafeer Partners helps stores manage those products, decide when to discount them, and offer eligible food to verified charities while it is still safe, edible, and within its valid date.
+
+**My role:** Project Manager  
+**Award:** Potential to Scale Award, Global TechBridge Hackathon, Amman, 2026  
+**What I worked on:** Users, value proposition, feature priorities, team coordination, product story, pitch, and demo
+
+The backlog includes the product vision, five epics, twelve user stories, acceptance criteria, dependencies, test cases, sprint goals, and product metrics.
 
 <p>
   <img src="https://img.shields.io/badge/Product_Vision-111111?style=flat-square" alt="Product Vision" />
@@ -44,59 +45,52 @@ Wafeer is a two application ecosystem designed to reduce food waste and make saf
   <img src="https://img.shields.io/badge/Product_Metrics-111111?style=flat-square" alt="Product Metrics" />
 </p>
 
-**My role:** Project Manager  
-**Recognition:** Award winner at the international TechBridge Hackathon in Amman, Jordan, developed under training and mentorship from Microsoft engineers  
-**Product features:** Smart Search, Smart Basket, Smart Analysis, store inventory workflows, customer purchasing, and safe pre expiry charity redistribution
-
-## Selected work
+## Other projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="WAFEER_PRODUCT_BACKLOG.md">Wafeer</a></h3>
-      <p>An AI assisted marketplace connecting affordable customer purchases, store inventory decisions, and responsible food redistribution.</p>
-      <p><strong>Role:</strong> Project Manager</p>
-      <p><strong>Recognition:</strong> International TechBridge Hackathon Award Winner</p>
-      <p><strong>Product work:</strong> User needs, value proposition, prioritization, cross functional coordination, pitch, and product demo</p>
+      <h3><a href="https://github.com/yousefwalidabubaker/MIN-HON">MIN HON</a></h3>
+      <p>A bilingual shopping experience inspired by Palestinian heritage, with product customization and an AI shopping assistant.</p>
+      <p><strong>Role:</strong> Technical Team Leader</p>
+      <p><strong>Result:</strong> Second Place in the Innovate IT Hackathon AI Track</p>
+      <p>I helped turn the original idea into a working product and kept the shopping, customization, and AI parts connected.</p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/yousefwalidabubaker/MIN-HON">MIN HON</a></h3>
-      <p>A bilingual Palestinian heritage shopping experience with customization and an AI concierge.</p>
-      <p><strong>Role:</strong> Technical Team Leader</p>
-      <p><strong>Recognition:</strong> Second Place in the Innovate IT Hackathon AI Track</p>
-      <p><strong>Product contribution:</strong> Translated the concept into features and aligned the shopping, customization, and AI experiences</p>
+      <h3><a href="https://github.com/yousefwalidabubaker/CampusFlow">CampusFlow</a></h3>
+      <p>A full stack platform for university events, registrations, and capacity management.</p>
+      <p>The idea came from problems I faced while organizing real student activities and keeping track of registrations.</p>
+      <p><strong>Built with:</strong> HTML, CSS, JavaScript, Node.js, Express, and SQLite</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/yousefwalidabubaker/CampusFlow">CampusFlow</a></h3>
-      <p>A full stack platform for managing university events, registrations, and capacity.</p>
-      <p><strong>Product origin:</strong> Based on problems I encountered while coordinating real student programs</p>
-      <p><strong>Built with:</strong> HTML, CSS, JavaScript, Node.js, Express, SQLite</p>
+      <h3><a href="https://github.com/yousefwalidabubaker/BookStoreDSA">BookStoreDSA</a></h3>
+      <p>A Java bookstore system built with custom data structures and clear inventory and order rules.</p>
+      <p><strong>Core concepts:</strong> Hash tables, binary search trees, linked queues, and testing</p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/yousefwalidabubaker/BookStoreDSA">BookStoreDSA</a></h3>
-      <p>A Java bookstore system built around custom data structures and clear business rules.</p>
-      <p><strong>Core concepts:</strong> Hash tables, binary search trees, linked queues, and testing</p>
-      <p><strong>Product lens:</strong> Reliable inventory and order processing workflows</p>
+      <h3>Student communities</h3>
+      <p>I have led activities for Engineers Without Borders, co founded DSC, taught problem solving, and helped organize technical sessions for university students.</p>
+      <p>I enjoy bringing people together around useful ideas and turning plans into real events.</p>
     </td>
   </tr>
 </table>
 
-## Product management toolkit
+## Product skills
 
 <p>
-  <img src="https://img.shields.io/badge/Product_Strategy-111111?style=flat-square" alt="Product Strategy" />
+  <img src="https://img.shields.io/badge/Product_Discovery-111111?style=flat-square" alt="Product Discovery" />
   <img src="https://img.shields.io/badge/Product_Vision-111111?style=flat-square" alt="Product Vision" />
   <img src="https://img.shields.io/badge/User_Stories-111111?style=flat-square" alt="User Stories" />
   <img src="https://img.shields.io/badge/Backlog_Prioritization-111111?style=flat-square" alt="Backlog Prioritization" />
   <img src="https://img.shields.io/badge/Acceptance_Criteria-111111?style=flat-square" alt="Acceptance Criteria" />
-  <img src="https://img.shields.io/badge/Agile_Workflows-111111?style=flat-square" alt="Agile Workflows" />
+  <img src="https://img.shields.io/badge/Agile_and_Scrum-111111?style=flat-square" alt="Agile and Scrum" />
   <img src="https://img.shields.io/badge/Product_Metrics-111111?style=flat-square" alt="Product Metrics" />
-  <img src="https://img.shields.io/badge/Cross_Functional_Leadership-111111?style=flat-square" alt="Cross Functional Leadership" />
+  <img src="https://img.shields.io/badge/Team_Leadership-111111?style=flat-square" alt="Team Leadership" />
 </p>
 
-## Technical toolkit
+## Technical skills
 
 <p>
   <img src="https://img.shields.io/badge/JavaScript-111111?style=flat-square&amp;logo=javascript&amp;logoColor=white" alt="JavaScript" />
@@ -110,15 +104,14 @@ Wafeer is a two application ecosystem designed to reduce food waste and make saf
   <img src="https://img.shields.io/badge/Azure-111111?style=flat-square&amp;logo=microsoftazure&amp;logoColor=white" alt="Azure" />
 </p>
 
-## Highlights
+## A few highlights
 
-* Won the Potential to Scale Award for Wafeer at the international TechBridge Hackathon in Amman, Jordan
-* Developed and presented Wafeer under training and mentorship from Microsoft engineers
+* Wafeer received the Potential to Scale Award at the Global TechBridge Hackathon in Amman
 * Led MIN HON technical delivery to Second Place in the AI Track at a hackathon with more than 300 participants
-* Led activities for an Engineers Without Borders community of more than 250 members and events reaching more than 1,000 attendees
-* Co founded DSC and helped deliver more than 10 technical sessions reaching more than 500 participants
+* Led activities for an Engineers Without Borders community with more than 250 members
+* Co founded DSC and helped deliver more than 10 technical sessions for over 500 participants
 * Mentored 10 students in an advanced problem solving program serving 120 students
 
 <p align="center">
-  <strong>Open to Product Management, Product Owner, APM, and technology internship opportunities</strong>
+  <strong>Open to Product Management, Product Owner, Associate Product Manager, and technology internships</strong>
 </p>
