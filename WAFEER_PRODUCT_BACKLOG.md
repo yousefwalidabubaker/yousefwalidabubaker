@@ -163,7 +163,7 @@ All formulas, sources, owners, refresh times, and exclusions are documented in [
 | Must | [US03 — Enforce food safety and eligibility rules](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/3) | E1 | Block unsafe or invalid sale and donation paths | L | US02 |
 | Must | [US04 — Browse discounted products](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/4) | E2 | Make eligible inventory discoverable | M | US02, US03 |
 | Should | [US05 — Find products with Smart Search](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/5) | E2 | Reduce effort and zero-result searches | M | US04 |
-| Must | [US06 — Review clear product and safety information](https://github.com/yousefwalidabubaker/yousefwalidabaker/issues/6) | E2 | Help customers make informed choices | S | US03, US04 |
+| Must | [US06 — Review clear product and safety information](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/6) | E2 | Help customers make informed choices | S | US03, US04 |
 | Must | [US07 — Reserve and place a pickup order](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/7) | E3 | Complete an order without overselling | L | US03, US06 |
 | Should | [US08 — Build a value-optimized Smart Basket](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/8) | E4 | Create a useful basket within customer constraints | L | US05, US07 |
 | Should | [US09 — Prioritize inventory with Smart Analysis](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/9) | E4 | Help stores take earlier, explainable action | L | US02, US03, US07 |
