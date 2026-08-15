@@ -1,13 +1,13 @@
 # Wafeer Product Backlog
 
-This is the Product Owner backlog I created from Wafeer, a team project I worked on as Project Manager during the Global TechBridge Hackathon in Amman.
+I chose Wafeer for this backlog because I already knew the product from the inside. I worked on it as Project Manager during the Global TechBridge Hackathon in Amman, where I helped define the users, value proposition, feature priorities, and final product story.
 
-I wanted this backlog to show how I think about a product, not only list features. It explains the problem, the people we are building for, what I would validate first, how I chose priorities, and what the team would need to deliver each story.
+After the hackathon, I turned those decisions into a backlog a team could plan from. It covers the main user journeys, what I would validate first, the order I would build in, and the work needed to complete each story.
 
 | Project detail | Information |
 | --- | --- |
 | **Backlog owner** | Yousef AbuBaker |
-| **My role in the original project** | Project Manager and major contributor |
+| **My role in the original project** | Project Manager, focused on product direction, priorities, coordination, pitch, and demo |
 | **Last updated** | August 2026 |
 | **Backlog size** | 5 epics and 12 user stories |
 | **Award** | Wafeer received the Potential to Scale Award at the Global TechBridge Hackathon in Amman, 2026 |
@@ -135,7 +135,7 @@ This connects the customer benefit, the store benefit, and the waste reduction g
 | Safety | Invalid items blocked, override attempts, and reported incidents |
 | Repeat use | Returning customers and active returning partner stores |
 
-These are proposed metrics. They are not being presented as results already achieved by the project.
+These are the metrics I would track after launch. They are not results from the hackathon prototype.
 
 # Epic map
 
@@ -168,7 +168,7 @@ Every linked Issue contains the full user story, acceptance criteria, task check
 
 # Suggested delivery order
 
-This is a starting point for planning. I would still ask the team to estimate the work and adjust the scope based on what we learn in each sprint.
+This is my proposed delivery order. The team would estimate the stories before committing to a sprint, and we would adjust the scope as we learn.
 
 | Sprint | Goal | Stories |
 | --- | --- | --- |
@@ -241,6 +241,6 @@ A story is done when:
 
 ## Ownership note
 
-Wafeer was a team project. My role was Project Manager, and I was a major contributor to the product direction, feature priorities, coordination, pitch, and demo.
+Wafeer was built by a team. I was the Project Manager, and my main contribution was shaping the product direction, setting priorities, keeping the different parts of the work connected, and leading the pitch and demo.
 
-This backlog is my Product Owner portfolio sample based on that real experience. It was created and meaningfully updated in August 2026. It does not claim that I completed the entire team project alone.
+I put this backlog version together in August 2026 using the product decisions and workflows I worked on during the hackathon. I am presenting my own contribution, not claiming the team's technical work as mine.
