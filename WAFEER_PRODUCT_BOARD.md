@@ -1,6 +1,6 @@
 # Wafeer Product Board
 
-This view turns the detailed Wafeer backlog into a board that a team can use during planning. It shows what must be delivered first, what depends on earlier work, and which ideas should wait until the core flows are reliable.
+I organized this board around one decision: inventory and safety have to work before the smart features are worth building. It shows what belongs in the first release, what depends on earlier work, and what should stay in the backlog until the core journeys are proven.
 
 [Read the full Product Backlog](./WAFEER_PRODUCT_BACKLOG.md) | [Open all Wafeer Issues](../../issues?q=is%3Aissue+Wafeer)
 
