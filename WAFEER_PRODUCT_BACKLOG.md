@@ -13,12 +13,15 @@ I wanted this backlog to show how I think about a product, not only list feature
 | **Award** | Wafeer received the Potential to Scale Award at the Global TechBridge Hackathon in Amman, 2026 |
 | **Microsoft involvement** | The event was technically supported by Microsoft, and our team received training and mentorship from Microsoft engineers |
 
-> **Important safety rule:** Food can only be sold or offered to charity while it is still safe, edible, properly stored, unexpired, and inside the allowed time window. Expired, damaged, recalled, or unsafe food is never sold or donated.
+> **Important safety rule:** Food can only be sold or offered to charity while it is still safe, edible, properly stored, unexpired, and inside the allowed time window. The safety cutoff is configured by an authorized platform administrator for each product category and must follow the applicable local food safety requirements. A store confirmation can never override a safety block. Expired, damaged, recalled, or unsafe food is never sold or donated.
+
+[Open the visual Wafeer Product Board](https://github.com/yousefwalidabubaker/yousefwalidabubaker/blob/main/WAFEER_PRODUCT_BOARD.md)
 
 [View all Wafeer issues on GitHub](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues?q=is%3Aissue+state%3Aopen+Wafeer)
 
 ## What is included
 
+* A visual product board organized by release, sprint, priority, and dependency
 * Five clear epics
 * Twelve linked user stories
 * Priorities and dependencies
@@ -43,6 +46,17 @@ Wafeer has two connected applications.
 A store adds its eligible inventory through Wafeer Partners. Customers can then find and reserve available products through Wafeer. If an item is not sold but is still safe and within its valid date, the store can offer it to a verified charity before the safety cutoff.
 
 The two applications must use the same inventory record. This is important because the same unit should never be sold twice or offered to a customer and a charity at the same time.
+
+## First release operating decisions
+
+These decisions keep the first release clear enough for a team to build and test.
+
+* A customer can use an account or verify a phone number or email before confirming a reservation.
+* The first release uses reservation with payment at pickup. Online payment is outside the first release.
+* Every reservation has a clear expiry time. Failed, cancelled, and expired reservations return the stock.
+* The store confirms collection using the order reference so the customer and store see the same final status.
+* An authorized platform administrator owns the safety rules and category cutoffs. Store employees provide product and storage information, but they cannot bypass a safety block.
+* A charity handoff is counted as completed only after a verified charity collects the eligible items before the cutoff.
 
 ## My role in the original project
 
@@ -99,7 +113,7 @@ The first stories create verified stores, accurate inventory, and strict safety 
 
 The next group creates the smallest complete customer journey: browse a product, understand it, and place a pickup order without overselling stock.
 
-Smart Search, Smart Basket, and Smart Analysis come later because they need reliable inventory and real usage data. The donation flow is a core feature, so it works with clear safety rules even if Smart Analysis is not available.
+Smart Search, Smart Basket, and Smart Analysis come later because they need reliable inventory and real usage data. The donation flow is a core Must feature and is included in the first public release. It works with clear safety rules even if Smart Analysis is not available.
 
 ## Main product metric
 
@@ -141,13 +155,13 @@ These are proposed metrics. They are not being presented as results already achi
 | Must | [US02: Add eligible inventory](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/2) | E1 | US01 |
 | Must | [US03: Enforce food safety and eligibility rules](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/3) | E1 | US02 |
 | Must | [US04: Browse discounted products](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/4) | E2 | US02 and US03 |
-| Should | [US05: Find products with Smart Search](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/5) | E2 | US04 |
 | Must | [US06: Review clear product and safety information](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/6) | E2 | US03 and US04 |
 | Must | [US07: Reserve and place a pickup order](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/7) | E3 | US03 and US06 |
+| Must | [US10: Route eligible surplus to verified charities](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/10) | E5 | US02 and US03 |
+| Should | [US05: Find products with Smart Search](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/5) | E2 | US04 |
+| Should | [US11: Send useful order and safety notifications](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/11) | E3 | US07 and US10 |
 | Should | [US08: Build a Smart Basket within a budget](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/8) | E4 | US05 and US07 |
 | Should | [US09: Prioritize inventory with Smart Analysis](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/9) | E4 | US02, US03, and US07 |
-| Must | [US10: Route eligible surplus to verified charities](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/10) | E5 | US02 and US03 |
-| Should | [US11: Send useful order and safety notifications](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/11) | E3 | US07 and US10 |
 | Could | [US12: Measure savings, recovery, and impact](https://github.com/yousefwalidabubaker/yousefwalidabubaker/issues/12) | E5 | US07 and US10 |
 
 Every linked Issue contains the full user story, acceptance criteria, task checklist, edge cases, test criteria, and dependencies.
@@ -166,19 +180,18 @@ This is a starting point for planning. I would still ask the team to estimate th
 | Sprint 5 | Add Smart Basket and Smart Analysis | US08 and US09 |
 | Sprint 6 | Add transparent product and impact reporting | US12 |
 
-## First release
+## First public release
 
-The first usable release would include US01, US02, US03, US04, US06, and US07.
+The first public release would include US01, US02, US03, US04, US06, US07, and US10.
 
-That gives the team one complete journey:
+That gives the team two complete outcomes using the same inventory record:
 
 1. A verified store adds a valid product.
-2. The platform checks its eligibility.
-3. A customer finds and understands the product.
-4. The customer places a pickup order.
-5. The system reserves the stock so it cannot be sold twice.
-
-US10 can then add the safe charity path using the same inventory and safety rules.
+2. The platform applies the category safety rules.
+3. A customer finds the product, verifies contact information, and reserves it for payment at pickup.
+4. The system locks the reserved quantity so it cannot be allocated twice.
+5. If eligible stock is not reserved by a customer, the store can offer it to a verified charity before the donation cutoff.
+6. The charity collects the accepted quantity, and only the completed handoff is counted as an outcome.
 
 ## Important cases the whole product must handle
 
@@ -200,6 +213,7 @@ A story is ready when:
 * The priority and dependencies are known
 * Acceptance criteria can be tested
 * Important safety and data questions are answered
+* The person responsible for each safety rule or product decision is named
 * The team has enough information to estimate the work
 
 ## Definition of Done
@@ -218,7 +232,7 @@ A story is done when:
 | Risk | How I would respond |
 | --- | --- |
 | Customers do not trust products close to expiry | Make the date, storage, safety, discount, and pickup information clear before checkout |
-| An unsafe item enters the system | Use automatic blocks, audit records, and an authorized review process |
+| An unsafe item enters the system | Apply category cutoffs owned by an authorized platform administrator, automatic blocks, audit records, and an authorized review process |
 | The same item is sold or donated twice | Use one inventory allocation record and check it again before confirmation |
 | Store employees find the process too slow | Reduce unnecessary fields and focus alerts on items that need action |
 | Charity offers arrive too late | Send offers earlier and use realistic collection windows |
