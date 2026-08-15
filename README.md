@@ -35,7 +35,7 @@ Wafeer has two connected applications. The customer app helps people find safe p
 **Award:** Potential to Scale Award, Global TechBridge Hackathon, Amman, 2026  
 **What I worked on:** Users, value proposition, feature priorities, team coordination, product story, pitch, and demo
 
-The backlog includes the product vision, five epics, twelve user stories, acceptance criteria, dependencies, test cases, sprint goals, and product metrics.
+I organized the work in a [visual product board](WAFEER_PRODUCT_BOARD.md), then documented each story as a GitHub Issue with its priority, dependencies, acceptance criteria, tasks, edge cases, and test criteria.
 
 <p>
   <img src="https://img.shields.io/badge/Product_Vision-111111?style=flat-square" alt="Product Vision" />
