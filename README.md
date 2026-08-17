@@ -4,12 +4,12 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/yousefwalidabubaker/"><img src="https://img.shields.io/badge/LinkedIn-CONNECT-111111?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
-  <a href="WAFEER_PRODUCT_BACKLOG.md"><img src="https://img.shields.io/badge/Product_Case-WAFEER-111111?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Wafeer Product Backlog" /></a>
+  <a href="https://github.com/yousefwalidabubaker/voice-of-the-market-ai"><img src="https://img.shields.io/badge/Product_Case-VOICE_OF_THE_MARKET-111111?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Voice of the Market Product Case Study" /></a>\n  <a href="WAFEER_PRODUCT_BACKLOG.md"><img src="https://img.shields.io/badge/Product_Case-WAFEER-111111?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Wafeer Product Backlog" /></a>
 </p>
 
 <table>
   <tr>
-    <td width="33%" align="center"><strong>2</strong><br />Hackathon awards</td>
+    <td width="33%" align="center"><strong>3</strong><br />Hackathon awards</td>
     <td width="33%" align="center"><strong>Product and Tech</strong><br />My main focus</td>
     <td width="33%" align="center"><strong>2027</strong><br />Expected graduation</td>
   </tr>
@@ -26,6 +26,24 @@ At the Global TechBridge Hackathon in Amman, I worked as the Project Manager for
 I am currently looking for Product Management, Product Owner, Associate Product Manager, and technology internship opportunities.
 
 ## Featured product work
+
+### [Voice of the Market](https://github.com/yousefwalidabubaker/voice-of-the-market-ai)
+
+At AINAK Challenges 2026, our team, The Executive Congress, won the Voice of the Market challenge. We built an AI driven retail availability system that combines in fridge inventory tracking with customer QR reports, then classifies and prioritizes alerts so Siniora and market teams can respond faster.
+
+**Result:** Winner, Voice of the Market challenge, AINAK Challenges 2026  
+**Team:** The Executive Congress  
+**What I worked on:** Problem framing, product direction, MVP scope, user flows, feature priorities, backlog, acceptance criteria, metrics, and pitch narrative
+
+I documented the full product case study in the repository, including the product vision, PRD, prioritized backlog, roadmap, experiments, risks, and assumptions.
+
+<p>
+  <img src="https://img.shields.io/badge/AI_Retail-111111?style=flat-square" alt="AI Retail" />
+  <img src="https://img.shields.io/badge/Product_Strategy-111111?style=flat-square" alt="Product Strategy" />
+  <img src="https://img.shields.io/badge/MVP_Scope-111111?style=flat-square" alt="MVP Scope" />
+  <img src="https://img.shields.io/badge/Product_Backlog-111111?style=flat-square" alt="Product Backlog" />
+  <img src="https://img.shields.io/badge/Product_Metrics-111111?style=flat-square" alt="Product Metrics" />
+</p>
 
 ### [Wafeer Product Backlog](WAFEER_PRODUCT_BACKLOG.md)
 
@@ -106,6 +124,7 @@ I organized the work in a [visual product board](WAFEER_PRODUCT_BOARD.md), then 
 
 ## A few highlights
 
+* Won the Voice of the Market challenge at AINAK Challenges 2026, my third consecutive hackathon win
 * Wafeer received the Potential to Scale Award at the Global TechBridge Hackathon in Amman
 * Led MIN HON technical delivery to Second Place in the AI Track at a hackathon with more than 300 participants
 * Led activities for an Engineers Without Borders community with more than 250 members
