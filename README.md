@@ -11,7 +11,7 @@
 <table>
   <tr>
     <td width="33%" align="center"><strong>3</strong><br />Consecutive hackathon wins</td>
-    <td width="33%" align="center"><strong>Product Owner Intern</strong><br />Chingu Voyage 62</td>
+    <td width="33%" align="center"><strong>Product Owner Intern</strong><br />Chingu</td>
     <td width="33%" align="center"><strong>2027</strong><br />Expected graduation</td>
   </tr>
 </table>
