@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="profile-header-v2.svg" width="100%" alt="Yousef AbuBaker software engineering profile header" />
+  <img src="profile-header-v2.svg" width="100%" alt="Yousef AbuBaker Software Engineering profile header" />
 </div>
 
 <p align="center">
@@ -11,12 +11,12 @@
 <table>
   <tr>
     <td width="33%" align="center"><strong>3</strong><br />Consecutive hackathon awards</td>
-    <td width="33%" align="center"><strong>4</strong><br />Engineering projects</td>
+    <td width="33%" align="center"><strong>4</strong><br />Software Engineering projects</td>
     <td width="33%" align="center"><strong>2027</strong><br />Expected graduation</td>
   </tr>
 </table>
 
-## Software engineering profile
+## Software Engineering Profile
 
 I am a fourth year Computer Science student at An Najah National University building toward a career in Software Engineering.
 
@@ -24,13 +24,13 @@ I enjoy understanding how a system works end to end, turning requirements into w
 
 Across university projects and hackathons, I have worked with Java, JavaScript, TypeScript, React, Vue, Node.js, Express, SQL, REST APIs, Git, and AI APIs. I have also led technical delivery in team environments, which taught me how much clear communication matters when software has to move from an idea to a working demo.
 
-I am currently looking for Software Engineering, Backend, and Full Stack internship opportunities where I can keep building stronger engineering fundamentals through real work.
+I am currently looking for Software Engineering, Backend, and Full Stack internship opportunities where I can keep building stronger Software Engineering fundamentals through real work.
 
-## Selected engineering projects
+## Selected Software Engineering Projects
 
 ### [BookStoreDSA](https://github.com/yousefwalidabubaker/BookStoreDSA)
 
-A Java bookstore system built to apply core data structures and software engineering principles to a practical workflow.
+A Java bookstore system built to apply core data structures and Software Engineering principles to a practical workflow.
 
 **What it demonstrates:**
 
@@ -50,7 +50,7 @@ A bilingual Palestinian heritage e-commerce prototype with product customization
 **Result:** 2nd Place, Innovate IT Hackathon AI Track  
 **Role:** Technical Team Leader
 
-**Engineering highlights:**
+**Software Engineering highlights:**
 
 - React + TypeScript storefront
 - Node.js + Express backend
@@ -64,7 +64,7 @@ A bilingual Palestinian heritage e-commerce prototype with product customization
 
 A responsive event website built for the EWB Campus Expo at An Najah National University.
 
-**Engineering highlights:** searchable and filterable booth data, visitor and exhibitor flows, browser persistence, responsive pages, and GitHub Pages deployment.
+**Software Engineering highlights:** searchable and filterable booth data, visitor and exhibitor flows, browser persistence, responsive pages, and GitHub Pages deployment.
 
 **Tech:** HTML, CSS, JavaScript, Vue 3, Local Storage, GitHub Pages
 
@@ -76,7 +76,7 @@ An AI retail-availability system concept combining camera-based inventory monito
 
 The repository focuses on the system flow, architecture decisions, requirements, data signals, risks, and implementation considerations behind the hackathon solution.
 
-## Technical stack
+## Technical Stack
 
 ### Languages
 
@@ -88,7 +88,7 @@ The repository focuses on the system flow, architecture decisions, requirements,
   <img src="https://img.shields.io/badge/SQL-111111?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
 </p>
 
-### Web and backend
+### Web and Backend
 
 <p>
   <img src="https://img.shields.io/badge/React-111111?style=flat-square&logo=react&logoColor=white" alt="React" />
@@ -98,7 +98,7 @@ The repository focuses on the system flow, architecture decisions, requirements,
   <img src="https://img.shields.io/badge/REST_APIs-111111?style=flat-square" alt="REST APIs" />
 </p>
 
-### Engineering tools and concepts
+### Software Engineering Tools and Concepts
 
 <p>
   <img src="https://img.shields.io/badge/Git-111111?style=flat-square&logo=git&logoColor=white" alt="Git" />
@@ -110,7 +110,7 @@ The repository focuses on the system flow, architecture decisions, requirements,
   <img src="https://img.shields.io/badge/AI_Integration-111111?style=flat-square" alt="AI Integration" />
 </p>
 
-## What I am strengthening now
+## What I Am Strengthening Now
 
 - Data structures, algorithms, and problem solving
 - Backend development and API design
@@ -118,7 +118,7 @@ The repository focuses on the system flow, architecture decisions, requirements,
 - Full stack application architecture
 - Building projects that go beyond the prototype stage
 
-## Hackathons and technical leadership
+## Hackathons and Technical Leadership
 
 In 2026, I earned three consecutive hackathon awards while working across technical teams. I led the technical delivery of MIN HON, helped shape the AI-driven Voice of the Market system, and managed cross-functional execution for Wafeer during the Global TechBridge Hackathon in Amman with mentorship from Microsoft engineers.
 
