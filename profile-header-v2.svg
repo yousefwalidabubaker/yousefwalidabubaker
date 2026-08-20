@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
   <title id="title">Yousef AbuBaker</title>
-  <desc id="description">Software engineering and full stack development portfolio</desc>
+  <desc id="description">Software Engineering and full stack development portfolio</desc>
 
   <defs>
     <linearGradient id="black" x1="0" y1="0" x2="1" y2="1">
@@ -50,7 +50,7 @@
 
   <g transform="translate(1010 150)">
     <rect x="-84" y="-31" width="168" height="62" fill="#0b0b0b" stroke="#f4f1e9" stroke-opacity="0.45"/>
-    <text x="0" y="-7" text-anchor="middle" fill="#f4f1e9" font-family="Georgia, 'Times New Roman', serif" font-size="18" letter-spacing="1.2">ENGINEERING</text>
-    <text x="0" y="17" text-anchor="middle" fill="#8d8d8d" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="600" letter-spacing="3.7">BUILD</text>
+    <text x="0" y="-7" text-anchor="middle" fill="#f4f1e9" font-family="Georgia, 'Times New Roman', serif" font-size="16" letter-spacing="1.2">SOFTWARE</text>
+    <text x="0" y="17" text-anchor="middle" fill="#8d8d8d" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="600" letter-spacing="2.6">ENGINEERING</text>
   </g>
 </svg>
