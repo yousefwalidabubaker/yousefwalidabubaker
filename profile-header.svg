@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title description">
+  <title id="title">Yousef AbuBaker</title>
+  <desc id="description">Software Engineering portfolio header</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f14" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2f81f7" stop-opacity="0.30" />
+      <stop offset="100%" stop-color="#2f81f7" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#79c0ff" />
+      <stop offset="100%" stop-color="#2f81f7" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="320" rx="20" fill="url(#background)" />
+  <circle cx="1120" cy="160" r="310" fill="url(#glow)" />
+  <path d="M1060 -40H1280V360H1175Z" fill="#ffffff" opacity="0.025" />
+  <path d="M1160 -40H1280V360H1245Z" fill="#58a6ff" opacity="0.06" />
+  <rect x="1" y="1" width="1278" height="318" rx="19" fill="none" stroke="#ffffff" stroke-opacity="0.10" />
+
+  <rect x="78" y="76" width="6" height="168" rx="3" fill="url(#accent)" />
+  <text x="116" y="155" fill="#f0f6fc" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="62" font-weight="700" letter-spacing="-1.2">Yousef AbuBaker</text>
+  <text x="119" y="206" fill="#79c0ff" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="20" font-weight="600" letter-spacing="5.4">SOFTWARE ENGINEERING</text>
+
+  <line x1="116" y1="236" x2="650" y2="236" stroke="#8b949e" stroke-opacity="0.28" />
+</svg>
